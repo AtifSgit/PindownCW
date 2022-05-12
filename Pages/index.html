@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pindown System</title>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="code.js"></script>
+</head>
+<body>
+    <div class="sidetab">
+        <div class="sidetab-brand">
+            <span><a href="https://www.lsbu.ac.uk/study/study-at-lsbu/our-schools/law-and-social-sciences/study/subjects/law/family-law-hub?msclkid=bd38ddb8ce5511ec81d671ef1e76ac76"><img src="LSBU2020logo.png" alt=""></a></span>
+            <h1> Pindown</h1>
+        </div>
+        <div class="menu-sidetab">
+            <ul>
+                <li>
+                    <a href="index.html" class="active"><span class="las la-th-large"></span><span> Dashboard</span></a>
+                </li>
+                <li>
+                    <a href="messages.html"><span class="las la-sms"></span><span> Messages</span></a>
+                </li>
+                <li>
+                    <a href="documents.html"><span class="las la-folder"></span><span> Documents</span></a>
+                </li>
+                <li>
+                    <a href="logbook.html"><span class="las la-book"></span><span> Logbook</span></a>
+                </li>
+               
+                <li>
+                    <a href="settings.html"><span class="las la-cog"></span><span> Settings</span></a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="menu-signout">
+            <li>
+                <a href=""><span class="las la-sign-out-alt"></span><span> Sign Out</span></a>
+            </li>
+        </div>
+    </div>
+        <div class="main-page">
+            <header>
+                <h2>
+                    <label for="">
+                        <span class="las la-bars"></span>
+                    </label>
+                Dashboard
+                </h2>
+                <div class="search-box">
+                    <span class="las la-search"></span>
+                    <input type="search" placeholder="What are you looking for?">
+                </div>
+                <div class="user-wrapper">
+                    <div>
+                        <h4>Rob Hush</h4>
+                        <small>Administrator</small>
+                     
+                    </div>
+                    <img src="User1.png" width="30px" height="30px" alt="">
+                </div>
+            </header>
+            <main>
+                <div class="boxes">
+                    <div class="box-self">
+                        <div>
+                            <h1>10th April</h1>
+                        <span>Next Event</span>
+                        </div>
+                    <div>
+                        <span class="las la-calendar"></span>
+                    </div>
+                </div>
+
+                <div class="box-self2">
+                    <div>
+                        <h1>13%</h1>
+                    <span>Pending</span>
+                    </div>
+                <div>
+                    <span class="las la-spinner"></span>
+                </div>
+             </div>
+
+
+             <div class="box-self3">
+                <div>
+                    <h1>87%</h1>
+                <span>Completed</span>
+                </div>
+             <div>
+                <span class="las la-check-circle"></span>
+             </div>
+             </div>
+
+             <div class="box-self4">
+                <div>
+                    <h1>2</h1>
+                <span>Cancelled</span>
+                </div>
+             <div>
+                <span class="las la-times-circle"></span>
+             </div>
+             </div>
+
+                </div>
+
+                <div class="next-grid">
+                    <div class="client">
+                        <div class="box">
+                            <div class="box-header">
+                                <h3>Client Info</h3>
+                                <button><a href="">Contact Client</a> <span class="las la-envelope">
+
+                                </span></button>
+                            </div>
+                            <div class="box-body">
+                                <article class="cssui-usercard">
+                                    <div class="cssui-usercard__body">
+                                      <h2 class="cssui-usercard__header">
+                                        <img src="User1.png" class="cssui-usercard__avatar" alt="Avatar">
+                                        <div class="cssui-usercard__header-info">
+                                          <h3 class="cssui-usercard__name">Steven <span class="cssui-usercard__name-label">Stuart</span></h3>
+                                          <span class="cssui-usercard__post">Software Engineer</span>
+                                        </div>
+                                    </h2>
+                                      <div class="cssui-usercard__content">
+                                        <div class="cssui-slider">
+                                
+                                          <!-- the control elements of slider -->
+                                
+                                          <input id="slide1" type="radio" class="cssui-slider__switch cssui-usercard__switch" name="slider-controls" checked autofocus>
+                                          <label for="slide1" class="cssui-slider__control cssui-usercard__control"></label>
+                                          <input id="slide2" type="radio" class="cssui-slider__switch cssui-usercard__switch" name="slider-controls">
+                                          <label for="slide2" class="cssui-slider__control cssui-usercard__control"></label>
+                                          <input id="slide3" type="radio" class="cssui-slider__switch cssui-usercard__switch" name="slider-controls">
+                                          <label for="slide3" class="cssui-slider__control cssui-usercard__control"></label>
+                                
+                                          <div class="cssui-slider__slides">
+                                
+                                            <!-- first slide -->
+                                
+                                            <div class="cssui-slider__slide">
+                                              <h4 class="cssui-usercard__title">Personal Information</h4>
+                                              <div class="cssui-usercard__stats">
+                                                <div class="cssui-stats cssui-usercard__stats-item">
+                                                  <i class="cssui-icon icon-earth"></i>
+                                                  <div class="cssui-stats__info cssui-usercard__stats-info">
+                                                    <span class="cssui-stats__name cssui-usercard__stats-name">Language</span>
+                                                    <span class="cssui-stats__value">English</span>
+                                                  </div>
+                                                </div>
+                                                <div class="cssui-stats cssui-usercard__stats-item">
+                                                  <i class="cssui-icon icon-location"></i>
+                                                  <div class="cssui-stats__info cssui-usercard__stats-info">
+                                                    <span class="cssui-stats__name cssui-usercard__stats-name">Hometown</span>
+                                                    <span class="cssui-stats__value">London</span>
+                                                  </div>
+                                                </div>
+                                                <div class="cssui-stats cssui-usercard__stats-item">
+                                                  <i class="cssui-icon icon-calendar"></i>
+                                                  <div class="cssui-stats__info cssui-usercard__stats-info">
+                                                    <span class="cssui-stats__name cssui-usercard__stats-name">Date of birth</span>
+                                                    <span class="cssui-stats__value">03 December 1990</span>
+                                                  </div>
+                                                 </div>
+                                                 <div class="cssui-stats cssui-usercard__stats-item">
+                                                  <i class="cssui-icon icon-man-woman"></i>
+                                                  <div class="cssui-stats__info cssui-usercard__stats-info">
+                                                    <span class="cssui-stats__name cssui-usercard__stats-name">Relationship</span>
+                                                    <span class="cssui-stats__value">Married</span>
+                                                  </div>
+                                                  </div>
+                                                  <div class="cssui-stats cssui-usercard__stats-item">
+                                                    <i class="cssui-icon icon-man-woman"></i>
+                                                    <div class="cssui-stats__info cssui-usercard__stats-info">
+                                                      <span class="cssui-stats__name cssui-usercard__stats-name">Email</span>
+                                                      <span class="cssui-stats__value">RobertS@gmail.com</span>
+                                                    </div>
+                                                    </div>
+                                                    <div class="cssui-stats cssui-usercard__stats-item">
+                                                        <i class="cssui-icon icon-man-woman"></i>
+                                                        <div class="cssui-stats__info cssui-usercard__stats-info">
+                                                          <span class="cssui-stats__name cssui-usercard__stats-name">Phone</span>
+                                                          <span class="cssui-stats__value">+44 79 4352 2432</span>
+                                                        </div>
+                                                        </div>
+
+
+                                                  </div>
+                                            </div>
+                                
+                                            <!-- second slide -->
+                                
+                                            <div class="cssui-slider__slide">
+                                              <h4 class="cssui-usercard__title">Case Brief</h4>
+                                              <div class="case-brief">
+                                                  <li>
+                                                      <ul>
+                                                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aliquam eveniet dolore corporis harum nobis vel earum, obcaecati nisi excepturi molestiae cupiditate ipsum enim libero! Ullam, ad ex. Culpa, ex.
+                                                      </ul>
+                                                      <ul>
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sapiente aliquam laboriosam perspiciatis fuga voluptatem velit! Saepe incidunt eligendi voluptate sit voluptates placeat soluta sed?
+                                                    </ul>
+                                                    <ul>
+                                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste quo deserunt ullam molestiae ad reiciendis iusto, ipsam labore magnam accusantium recusandae temporibus reprehenderit eos, eius voluptate et placeat pariatur unde, vitae cupiditate autem nulla eveniet veniam!
+                                                    </ul>
+                                                    <ul>
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium cumque labore earum necessitatibus.
+                                                    </ul>
+                                                  
+                                                  </li>
+                                              </div>
+                                            </div>
+                                
+                                            <!-- third slide -->
+                                
+                                            <div class="cssui-slider__slide">
+                                              <h4 class="cssui-usercard__title">Research Instructions</h4>
+                                              <div class="case-brief">
+                                                <li>
+                                                    <ul>
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, quos!
+                                                    </ul>
+                                                    <ul>
+                                                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, fugiat.
+                                                  </ul>
+                                                  <ul>
+                                                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, assumenda? Sit, reiciendis?
+                                                  </ul>
+                                                  <ul>
+                                                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium cumque labore earum necessitatibus.
+                                                  </ul>
+                                                  <ul>
+                                                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem facilis voluptatem animi fugiat amet aspernatur minus voluptatibus ducimus nesciunt vel!
+                                                  </ul>
+                                                </li>
+                                            </div>
+                                              
+                                      </div>
+                                    </div>
+
+
+                                    <footer class="cssui-usercard__footer">
+                                      <a href="#0" class="cssui-social cssui-usercard__social">
+                                        <i class="cssui-icon icon-twitter"></i>
+                                        <span class="cssui-social__name">twitter</span>
+                                      </a>
+                                      <a href="#0" class="cssui-social cssui-usercard__social">
+                                        <i class="cssui-icon icon-linkedin"></i>
+                                        <span class="cssui-social__name">linkedin</span>
+                                      </a>
+                                      <a href="#0" class="cssui-social cssui-usercard__social">
+                                        <i class="cssui-icon icon-codepen"></i>
+                                        <span class="cssui-social__name">codepen</span>
+                                      </a>
+                                    </footer>
+                                  </article>
+                                  <footer class="footer">
+                                    <div class="main-container footer__container">
+                                      <div class="footer__column">
+                                    </div>
+                                  </footer>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="calendar">
+                        <div class="box">
+                            <div class="box-header">
+                                <h3>Calendar</h3>
+                                <button><a href="">Set Meeting</a> <span class="las la-users">
+
+                                </span></button>
+                             </div>
+                             <div class="box-bodyc">
+                                 <div class="clndr">
+                            <div class="month-week">
+                            <h1>April</h1>
+                           
+                        <div class="weeks">
+                            <span>Mon</span>
+                            <span>Tue</span>
+                            <span>Wed</span>
+                            <span>Thu</span>
+                            <span>Fri</span>
+                            <span>Sat</span>
+                            <span>Sun</span>
+                        </div>
+                        <div class="days">
+                            <span class="nextmnth">28</span>
+                            <span class="nextmnth">29</span>
+                            <span class="nextmnth">30</span>
+                            <span class="nextmnth">31</span>
+                            <span class="nextmnth">1</span>
+                            <span class="nextmnth">2</span>
+                            <span>3</span>
+                        </div>
+                        <div class="days">
+                            <span>4</span>
+                            <span>5</span>
+                            <span>6</span>
+                            <span>7</span>
+                            <span>8</span>
+                            <span>9</span>
+                            <span>10</span>
+                        </div>
+                        <div class="days">
+                            <span>11</span>
+                            <span>12</span>
+                            <span>13</span>
+                            <span>14</span>
+                            <span>15</span>
+                            <span>16</span>
+                            <span>17</span>
+                        </div>
+                        <div class="days">
+                            <span>18</span>
+                            <span>19</span>
+                            <span>20</span>
+                            <span>21</span>
+                            <span>22</span>
+                            <span>23</span>
+                            <span>24</span>
+                        </div>
+                        <div class="days">
+                            <span>25</span>
+                            <span>26</span>
+                            <span>27</span>
+                            <span>28</span>
+                            <span>29</span>
+                            <span>30</span>
+                            <span>1</span>
+                        </div>
+                        <div class="days">
+                            <span>2</span>
+                            <span>3</span>
+                            <span class="nextmnth">4</span>
+                            <span class="nextmnth">5</span>
+                            <span class="nextmnth">6</span>
+                            <span class="nextmnth">7</span>
+                            <span class="nextmnth">9</span>
+                        </div>
+
+
+                        
+                    </div>
+                </div>
+                    
+                            </div>
+                            <div class="available_Dates">
+                                <h3 >Upcoming Meetings:</h3>
+
+                                <div class="meetings">
+                                    <div class="format">
+                                        23
+                                    </div>
+                                    <h5>Face-to-Face meeting with client</h5>
+                                 
+                                </div>
+                                <div class="meetings">
+                                    <div class="format">
+                                        27
+                                    </div>
+                                    <h5>Meeting with organization </h5>
+                                    
+                                </div>
+                                <div class="meetings">
+                                    <div class="format">
+                                        30
+                                    </div>
+                                    <h5>MS Teams meeting with volunteers</h5>
+                                    
+                                </div>
+                            
+                            </div>
+                
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="next-grid2">
+                    <div class="feed">
+                        <div class="box2">
+                            <div class="box-header2">
+                               
+                                <h3>Feed</h3>
+                                <button><a href="">Post Status</a></button>
+                             </div>
+
+                                <div class="box-body">
+
+                                    
+                                <div class="userpost">         
+                                    
+                                    <img src="User1.png" width="50px" height="50px" alt="">
+                                    <h3>Dolcie Caldwell</h3>
+                                    <h5>now</h5>
+                                   
+                                 </div>
+                                 <div class="posttext">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nostrum nemo saepe molestiae sed omnis exercitationem vero id corporis eos praesentium, asperiores eius vel delectus ea consequuntur dolore numquam hic sit deserunt animi iste officia. Eius error neque sed. Soluta.</p>
+                                    <hr class="solid">
+                                  </div>
+
+                                  <div class="userpost">         
+                                    <img src="User1.png" width="50px" height="50px" alt="">
+                                    <h3>Harry Regan</h3>
+                                    <h5>3h ago</h5>
+                                   
+                                 </div>
+                                 <div class="posttext">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nostrum nemo saepe molestiae sed omnis exercitationem vero id corporis eos praesentium, asperiores eius vel delectus ea consequuntur dolore numquam hic sit deserunt animi iste officia. Eius error neque sed. Soluta.</p>
+                                    <hr class="solid">
+                                 </div>
+                                 <div class="userpost">         
+                                    <img src="User1.png" width="50px" height="50px" alt="">
+                                    <h3>Emrys Middleton</h3>
+                                    <h5>2d ago</h5>
+                                   
+                                </div>
+                                <div class="posttext">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nostrum nemo saepe molestiae sed omnis exercitationem vero id corporis eos praesentium, asperiores eius vel delectus ea consequuntur dolore numquam hic sit deserunt animi iste officia. Eius error neque sed. Soluta.</p>
+                                    
+                                    <hr class="solid">
+                                </div>
+
+                                <div class="userpost">         
+                                    <img src="User1.png" width="50px" height="50px" alt="">
+                                    <h3>Warren Naylor</h3>
+                                    <h5>6d ago</h5>
+                                   
+                                </div>
+                                <div class="posttext">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nostrum nemo saepe molestiae sed omnis exercitationem vero id corporis eos praesentium, asperiores eius vel delectus ea consequuntur dolore numquam hic sit deserunt animi iste officia. Eius error neque sed. Soluta.</p>
+                                    <hr class="solid">
+                                </div>
+
+                                <div class="userpost">         
+                                    <img src="User1.png" width="50px" height="50px" alt="">
+                                    <h3>Howard Hayden</h3>
+                                    <h5>2 weeks ago</h5>
+                                   
+                                </div>
+                                <div class="posttext">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nostrum nemo saepe molestiae sed omnis exercitationem vero id corporis eos praesentium, asperiores eius vel delectus ea consequuntur dolore numquam hic sit deserunt animi iste officia. Eius error neque sed. Soluta.</p>
+                                    <hr class="solid">
+                                </div>
+                                <div class="userpost">         
+                                    <img src="User1.png" width="50px" height="50px" alt="">
+                                    <h3>Kaydan Ferrell</h3>
+                                    <h5>3 months ago</h5>
+                                   
+                                </div>
+                                <div class="posttext">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nostrum nemo saepe molestiae sed omnis exercitationem vero id corporis eos praesentium, asperiores eius vel delectus ea consequuntur dolore numquam hic sit deserunt animi iste officia. Eius error neque sed. Soluta.</p>
+                                    <hr class="solid">
+                                </div>
+
+
+
+                                </div>
+
+
+                        
+                    </div>
+                </div>
+
+            </main>
+        </div>
+
+        
+   
+</body>
+</html>
