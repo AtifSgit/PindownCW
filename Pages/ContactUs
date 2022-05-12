@@ -1,0 +1,61 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+
+namespace MosqueCharity.Pages
+{
+    public class ContactModel : PageModel
+    {
+        public string Message { get; set; }
+
+        public void OnGet()
+        {
+            Message = "Your contact page.";
+        }
+    }
+}
+
+------------contact.cshtml--------------
+
+@page
+@model ContactModel
+@{
+
+}
+<h2>@ViewData["Title"]</h2>
+<h3></h3>
+<body style="background-color:#E6E6FA;">
+    <img src="~/images/RH.pdf" alt="Snow" style="width:1200px;height:600px;">
+    <div class="container">
+        <h3>Email:</h3>
+        <h4>
+            hushr@lsbu.ac.uk
+        </h4>
+
+        <h3>School/Division:</h3>
+        <h4>
+            Law and Social Sciences / Law
+        </h4>
+        <h3>Contact us on:</h3>
+        <h4>
+            +44 (0)20 7815 7815
+        </h4>
+        <img src="~/images/info.pdf" alt="Snow" style="width:1200px;height:650px;">
+
+    </div>
+        <h2>Send your comment/query via email:</h2>
+
+        <form action="mailto:hushr@lsbu.ac.uk" method="post" enctype="text/plain">
+            Name:<br>
+            <input type="text" name="name"><br>
+            E-mail:<br>
+            <input type="text" name="mail"><br>
+            Comment:<br>
+            <input type="text" name="comment" size="50"><br><br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+        </form>
+
+</body>
